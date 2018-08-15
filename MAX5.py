@@ -46,9 +46,9 @@ CMID = dd3.profile.mid
 
 Bot =[clientMID]
 Bots = [clientMID,dotsMID,ki1MID,ki2MID,ki3MID,ki4MID,ki5MID,AMID,BMID,CMID]
-creator = ["u33699ed350f7715fce593dd4e8a5d475"]
-Owner = ["u33699ed350f7715fce593dd4e8a5d475","uac3be5e86d7812e8cc28a6a312f52777"]
-admin = ["u33699ed350f7715fce593dd4e8a5d475","uac3be5e86d7812e8cc28a6a312f52777","ufb0c9b848c4359cb7ef4b6f021cd14e0"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+Owner = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","uac3be5e86d7812e8cc28a6a312f52777","ufb0c9b848c4359cb7ef4b6f021cd14e0"]
 target = []
 
 clientProfile = client.getProfile()
@@ -624,49 +624,49 @@ def clientBot(op):
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpMessage, icon, name, link)
 						elif cmd == "self":
 							helpSelf = menuSelf()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpSelf, icon, name, link)
 						elif cmd == "group":
 							helpGroup = menuGroup()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpGroup, icon, name, link)
 						elif cmd == "setting":
 							helpSetting = menuSetting()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpSetting, icon, name, link)
 						elif cmd == "media":
 							helpMedia = menuMedia()
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpMedia, icon, name, link)
 						elif cmd == "menu":
 							helpPub = menuPub()
 							contact = dots.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							dots.sendFooter(to, helpPub, icon, name, link)
 						elif cmd == "translator":
 							helpTranslate = menuTranslate()
 							contact = dots.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							dots.sendFooter(to, helpTranslate, icon, name, link)
 						
 						elif cmd == "translate":
@@ -674,7 +674,7 @@ def clientBot(op):
 							contact = client.getContact(sender)
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
-							link = "https://timeline.line.me/post/_dZNo9tm3E3PH0dURm6N9Rf_pYxmFJO2uASn_y7Q/1153217318709030407"
+							link = "https://timeline.line.me/post/_ddXCRpdbVw6CeqSiX89jDBRdew_jvVlnSYJuL5Q/1153416460202028922"
 							client.sendFooter(to, helpTranslate, icon, name, link)
 						
 						
